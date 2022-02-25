@@ -15,7 +15,6 @@ function enhance(level){
     goa = goa + (level+1)
     }
 
-
     if (Math.floor(Math.random()*100) < (100-(level*10))){
         nexus++
         alert ("สวยพี่สวย")
@@ -28,19 +27,3 @@ function enhance(level){
     document.getElementById("1").innerHTML = "Total GOA used " + goa.toLocaleString()
     document.getElementById("2").innerHTML = "Total NOVA used " + nova.toLocaleString()
 }
-
-/*enhance(nexus)
-enhance(nexus)
-enhance(nexus)
-enhance(nexus)
-enhance(nexus)
-
-/*while (nexus < 10){
-enhance (nexus)
-}*/
-
-
-
-console.log(nexus)
-console.log(nova.toLocaleString())
-console.log(goa.toLocaleString())
