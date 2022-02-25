@@ -21,7 +21,7 @@ function enhance(level){
     }
     else {
         nexus--
-        alert ("สมน้ำหน้า")
+        alert ("แตก!! สมน้ำหน้า")
     }
     document.getElementById("0").innerHTML = "Your current Nexus level is " + nexus
     document.getElementById("1").innerHTML = "Total GOA used " + goa.toLocaleString()
